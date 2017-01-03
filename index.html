@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <iframe src="./iframe.html" 
+          sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-presentation allow-scripts"
+          style="width: 80vw; height: 80vh;"></iframe
+  The content of the frame is sandboxed and tries to access window.sessionStorage. This leads to an exception although the specs say this is allowed.
+</body>
+</html>
